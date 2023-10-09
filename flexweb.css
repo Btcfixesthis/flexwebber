@@ -1,0 +1,174 @@
+body{
+    background-color: #FFF5E0;
+    background: fixed;
+
+}
+
+.box1{
+    background-color: #FF6969;
+    height: 120px;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.box1 img{
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.welcome{
+    margin-left: 100px;
+    margin-top: 0%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #C70039;
+    
+}
+
+.in-creative{
+    color: rgb(102, 9, 71);
+
+}
+
+hr{
+    width: 50%;
+}
+
+
+.products{ 
+    width: 90%;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.machine img{
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.fryer{
+    width: 100%;
+}
+
+.oven{
+    width: 100%;
+}
+
+.press{
+    width: 100%;
+}
+
+.grater{
+    width: 100%;
+}
+
+.capacity{
+
+}
+
+.quality {
+    flex: 1;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quality p {
+    
+
+}
+
+.excellence{
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.professionalism{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.expertise{
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.integrity{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .quality{
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .products{
+        flex-wrap: wrap;
+        flex-basis: 100px;
+        margin-left: 100px;
+    }
+
+    .capacity{
+        width: 70%;
+    }
+
+    .machine img{
+        width: 70%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .quality{
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .products{
+        flex-wrap: wrap;
+        flex-basis: 100px;
+        margin-left: 100px;
+    }
+
+    .capacity{
+        width: 70%;
+    }
+
+    .machine img{
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    
+}
+
+@media (max-width: 1200px) {
+
+    
+}
+
